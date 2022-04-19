@@ -572,7 +572,7 @@ public class QuanLyHangHoa {
 					donGia = scDouble.nextDouble();
 
 				} else {
-					System.err.println("Dinh Dang so nhap khong hop le");
+					System.err.println("Dinh dang so nhap khong hop le");
 					continue;
 				}
 
@@ -665,5 +665,5 @@ public class QuanLyHangHoa {
 		return false;
 	}
 
-
+	
 }
