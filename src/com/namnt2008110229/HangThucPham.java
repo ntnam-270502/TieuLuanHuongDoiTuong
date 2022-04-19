@@ -95,9 +95,9 @@ public class HangThucPham extends HangHoa{
 	@Override
 	public void danhGiaMucDo() {
 		if(getSoLuongTon() > 0 && LocalDate.now().compareTo(ngayHetHan) > 0) {
-			System.err.println("Khó bán");
+			System.err.println("Kho ban");
 		} else {
-			System.out.println("Không đánh giá");
+			System.out.println("Khong đanh gia");
 		}
 		
 	}
